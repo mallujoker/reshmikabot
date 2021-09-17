@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = "All Movies Here 👇 @tamahdmovie123",
+                caption = "All Movies Here 👇 @matahdmovie123",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'join our channel', url="https://t.me/tamahdmovie123"
+                                    'join our channel', url="https://t.me/matahdmovie123"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/tamahdmovie123'),
+        InlineKeyboardButton('Developers', url='https://t.me/matahdmovie123'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/tamahdmovie123')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/matahdmovie123')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
